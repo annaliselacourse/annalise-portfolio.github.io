@@ -1,0 +1,150 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+
+body {
+  background-color: darkslategrey;
+  position: relative;
+}
+
+#hero-section {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(10, 10, 10, 0.8)), url(img/computer.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 75vh;
+  text-align: center;
+  color: white;
+  text-shadow: black 1px 0 10px;
+  font-family: 'Abril Fatface', sans-serif;
+  background-attachment: fixed;
+  background-image: fixed;
+}
+
+.profile-pic {
+  margin-bottom: 20px;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 20%;
+  border-color: #99FEFF;
+}
+
+#profile {
+  position: sticky;
+  top: 22%;
+  left: 25%;
+  right: 25%;
+}
+
+#inspiration-h {
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#inspiration-section {
+  margin-bottom: 70px;
+}
+
+.carousel-item img{
+  object-fit: cover;
+  object-position: center;
+  height: 50vw;
+  overflow: hidden;
+}
+
+.carousel-item:after {
+  content:"";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+.carousel-caption {
+  z-index: 1;
+  text-shadow: black 20px 0 20px;
+  font-size: 150%;
+  font-family: 'Abril Fatface', cursive;
+  
+}
+
+#mission-target,
+#skills-section-target,
+#inspiration-section-target,
+#contact-section-target {
+  position: relative;
+  top: -100px;
+}
+
+#mission-section {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 200;
+  color: white;
+  background-color: #7D9D9C;
+}
+
+.navbar {
+  font-family: 'Abril Fatface', cursive;
+}
+
+#mission-img {
+  width: 100%;
+  border-radius: 10vw;
+  margin-top: 50px;
+}
+
+#mission-txt {
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  color: #141E27;
+}
+
+#skills-section {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  background-color: #5E8B7E;
+}
+
+#skills-section img {
+  width: 12vw;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#contact-section {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  background-color: #94B3FD;
+  font-size: 12vw;
+}
+
+#contact-section a {
+  color: #141E27;
+}
+
+#contact-section a :hover {
+  color: white;
+}
+
+#footer-section {
+  text-align: center;
+  background-color: #94B3FD;
+  align-items: center;
+  padding-bottom: 2px;
+  ;
+}
+
+
